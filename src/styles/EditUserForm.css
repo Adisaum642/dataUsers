@@ -1,0 +1,47 @@
+.EditUserForm {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.EditUserForm h2 {
+  margin-bottom: 1rem;
+}
+
+.EditUserForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditUserForm .form-group {
+  margin-bottom: 1rem;
+}
+
+.EditUserForm label {
+  margin-bottom: 0.5rem;
+}
+
+.EditUserForm input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.EditUserForm button[type="submit"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #0077cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.EditUserForm button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+.EditUserForm button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
